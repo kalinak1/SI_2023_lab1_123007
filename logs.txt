@@ -1,0 +1,118 @@
+Microsoft Windows [Version 10.0.19044.2728]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\KalinaKostovska>cd SI_2023_lab1_123007
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git init
+Initialized empty Git repository in C:/Users/KalinaKostovska/SI_2023_lab1_123007/.git/
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git remote add origin https://github.com/вашиот_корисничко_име/SI_2023_lab1_INDEX.git
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git remote add origin https://github.com/kalinak1/SI_2023_lab1_INDEX.git
+error: remote origin already exists.
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>echo "# My SI_2023_lab1_INDEX Repository" >> README.md
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add .
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git commit -m "Initial commit"
+[master (root-commit) 34b36db] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add SILab1.java
+fatal: pathspec 'SILab1.java' did not match any files
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add SILab1.java
+fatal: pathspec 'SILab1.java' did not match any files
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>cd SILab1.java
+The system cannot find the path specified.
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add SILab1.java
+fatal: pathspec 'SILab1.java' did not match any files
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>cd..
+
+C:\Users\KalinaKostovska>git add SILab.java
+fatal: pathspec 'SILab.java' did not match any files
+
+C:\Users\KalinaKostovska>cd SI_2023_lab1_123007
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add SILab1.java
+fatal: pathspec 'SILab1.java' did not match any files
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add SILab1.java
+fatal: pathspec 'SILab1.java' did not match any files
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add SILab1.java
+fatal: pathspec 'SILab1.java' did not match any files
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git commit -m "Add java class"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SILab1.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add git add SILab1.java
+fatal: pathspec 'git' did not match any files
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git commit -m "Add java class"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SILab1.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add git add SILab1.java
+fatal: pathspec 'git' did not match any files
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git commit -m "Add java class"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SILab1.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add SILab1.java
+fatal: pathspec 'SILab1.java' did not match any files
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SILab1.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add SILab1.java.txt
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git commit -m "Add java class"
+[master 47a03eb] Add java class
+ 1 file changed, 41 insertions(+)
+ create mode 100644 SILab1.java.txt
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>
