@@ -115,4 +115,96 @@ To push the current branch and set the remote as upstream, use
     git push --set-upstream origin master
 
 
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007> git push --set-upstream origin master
+fatal: unable to access 'https://github.com/вашиот_корисничко_име/SI_2023_lab1_INDEX.git/': The requested URL returned error: 400
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git remote add origin https://github.com/kalinak1/SI_2023_lab1_INDEX.git
+error: remote origin already exists.
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git remote remove origin
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git remote add origin https://github.com/kalinak1/SI_2023_lab1_INDEX.git
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>echo "# My SI_2023_lab1_INDEX Repository" >> README.md
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>cd SI_2023_lab1_123007
+The system cannot find the path specified.
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>cd SILab.java.txt
+The system cannot find the path specified.
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git push -u origin master
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kalinak1/SI_2023_lab1_INDEX.git/'
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git remote add origin https://github.com/kalinak1/SI_2023_lab1_123007.git
+error: remote origin already exists.
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git remove origin
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git remote remove origin
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git remote add origin https://github.com/kalinak1/SI_2023_lab1_123007.git
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add SILab1.java.txt
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git commit -m "Add java class"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        123007.txt
+        logs.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add 123007.txt
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add logs.txt
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>echo "# My SI_2023_lab1_INDEX Repository" >> README.md
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git add .
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git commit -m "Initial commit"
+[master d55bdf5] Initial commit
+ 3 files changed, 123 insertions(+)
+ create mode 100644 123007.txt
+ create mode 100644 logs.txt
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+C:\Users\KalinaKostovska\SI_2023_lab1_123007>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 2.11 KiB | 539.00 KiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kalinak1/SI_2023_lab1_123007.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
 C:\Users\KalinaKostovska\SI_2023_lab1_123007>
